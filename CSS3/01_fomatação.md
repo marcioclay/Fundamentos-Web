@@ -7,3 +7,6 @@ come¸cam com ”/*”e terminam com ”*/”.
 Ex:
 /* mudando a cor do plano de fundo */
 background {color:#00FF00}
+[CSS3](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics ).
+
+
