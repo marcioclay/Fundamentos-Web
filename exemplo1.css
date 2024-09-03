@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #af761a;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+figure{
+    text-align: center;
+}
+
+figure img {
+    width: 100px;
+    height: 100px;
+    
+} 
+
+article {
+    border: 1px solid #d84545;
+    padding: 20px;
+}
+
+aside {
+    background-color: #7c6baf;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
