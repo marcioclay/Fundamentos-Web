@@ -1,0 +1,61 @@
+body, ul, li, p {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    list-style: none;
+    font-size: 16px;
+
+}
+/* Ajustar <p> centralizar texto  */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap; /* ao mudar tela, menu ficara embaixo*/
+    background: rgb(7, 7, 7);
+
+}
+
+.menu{
+    display: flex; /* alinha horizontal */
+    
+}
+
+.menu li { /* Estrutura os itens menu */
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    background: tomato; /* Cor sobre cada item do menu */
+}
+
+h1{ /* divisão do menu e grid flexbox */
+    text-align: center;
+    margin-top:100px ;
+}
+img{
+    max-width: 100%; /*expansão tamanho da tela */
+    display: block;
+}
+/* CSS Flex box 1 */
+.flex {
+    display: flex; /*alinhar horizontalmente todos eles */
+    flex-wrap: wrap; /* Caso quebre, a img alinha  */
+    max-width: 800px; /* define tamanho máximo da pagina para expansão */
+    margin: auto; /*  */
+}
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px; /* margin entre blocos */
+
+}
+
