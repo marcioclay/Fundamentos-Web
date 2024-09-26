@@ -9,5 +9,7 @@
 - [Display Flex - Como posicionar](https://www.youtube.com/watch?v=KbjLtEgmZ_E)
 - [Flex Box](https://origamid.com/projetos/flexbox-guia-completo/ )
 - [GRID BOX](https://www.origamid.com/projetos/css-grid-layout-guia-completo/ )
+- [Flex Box - Rafaela Bala](https://www.youtube.com/watch?v=KbjLtEgmZ_E&t=781s)
+
 
 
