@@ -1,0 +1,27 @@
+.flex-container{
+    border: 2px solid black;
+    display: flex;
+    height: 400px; /* padrão se ajusta ao container */
+    flex-direction: column; /* eixo padrão é row */
+    justify-content: flex-start; /* Testar as opções */
+    align-items: flex-end;
+    gap: 15px;
+
+    
+}
+.flex-item{
+    border: 2px solid rgb(137, 212, 131);
+    background-color: blue;
+    font-size: 28px;
+    padding: 15px;
+}
+
+.item-4{
+    align-self: center;
+    width: 800px;
+}
+
+.item-1{
+    align-self: flex-start;
+    height: 400px;
+}
