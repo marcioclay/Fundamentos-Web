@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Exemplo</title>
+    <link rel="stylesheet" href="css\form1.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Formulário de Cadastro</h1>
+
+        <form action="#" method="post">
+            <!-- Campo de Texto -->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+
+            <!-- Campo de Texto - Endereço -->
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required placeholder="Digite seu endereço">
+
+            <!-- Campo de E-mail -->
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+            <!-- Campo de Senha -->
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required placeholder="Digite sua senha">
+
+            <!-- Checkbox (Múltipla Escolha) -->
+            <label>Preferências:</label>
+            <div class="checkbox-group">
+                <input type="checkbox" id="noticias" name="preferencias" value="noticias">
+                <label for="noticias">Receber notícias</label>
+
+                <input type="checkbox" id="ofertas" name="preferencias" value="ofertas">
+                <label for="ofertas">Receber ofertas</label>
+            </div>
+
+            <!-- Radio Button (Seleção Única) -->
+            <label>Gênero:</label>
+            <div class="radio-group">
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+
+                <input type="radio" id="feminino" name="genero" value="feminino">
+                <label for="feminino">Feminino</label>
+            </div>
+
+            <!-- Campo de Seleção (Select) -->
+            <label for="pais">País:</label>
+            <select id="pais" name="pais" required>
+                <option value="brasil">Brasil</option>
+                <option value="portugal">Portugal</option>
+                <option value="eua">Estados Unidos</option>
+            </select>
+
+            <!-- Text Area -->
+            <label for="comentarios">Comentários:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" placeholder="Insira seus comentários"></textarea>
+
+            <!-- Botões de Envio e Reset -->
+            <div class="button-group">
+                <button type="submit">Enviar</button>
+                <button type="reset">Resetar</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
